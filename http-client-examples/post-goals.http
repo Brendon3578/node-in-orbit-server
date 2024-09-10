@@ -1,0 +1,21 @@
+# Create a new goal
+# Endpoint: POST /goals
+POST http://localhost:3333/goals
+Content-Type: application/json
+
+{
+  "title": "Exercise",
+  "desiredWeeklyFrequency": 5
+}
+
+###
+
+# Test failing case for creating a new goal
+# This request should fail because 'desiredWeeklyFrequency' is a string, but it should be a number.
+POST http://localhost:3333/goals
+Content-Type: application/json
+
+{
+  "title": "Exercise",
+  "desiredWeeklyFrequency": "five"
+}
