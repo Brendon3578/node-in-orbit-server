@@ -1,0 +1,10 @@
+# Create a goal completion
+# Endpoint: POST /completions
+POST http://localhost:3333/completions
+Content-Type: application/json
+
+{
+  "goalId": "ivqs3p7dxcrcxf62fi4tbi4e"
+}
+
+###

@@ -1,0 +1,3 @@
+# Get pending goals
+# Endpoint: GET /goals
+GET http://localhost:3333/pending-goals
