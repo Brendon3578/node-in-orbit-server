@@ -1,0 +1,3 @@
+# Get week summary
+# Endpoint: GET /goals
+GET http://localhost:3333/summary
