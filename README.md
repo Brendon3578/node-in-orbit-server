@@ -21,6 +21,8 @@ Com ele é possível:
 - Visualizar as metas realizadas ao longo da semana ou de um dia
 - Gerenciar a frequência da realização de metas
 
+Essa aplicação foi desenvolvida para utilizar com este [Front-end](https://github.com/Brendon3578/node-in-orbit-web). Também é possível testar as rotas da aplicação através da pasta `/http-client-examples` com a extensão [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) do Visual Studio Code.
+
 ## ✨ Tecnologias
 
 - [Fastify](https://www.fastify.io/) - Biblioteca para a criação de um servidor HTTP RESTful
